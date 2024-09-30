@@ -1,0 +1,87 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #3c6e71;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.0rem;
+    margin-top: 10px;
+}
+
+#pretencao {
+    font-size: 1.8rem;
+    margin-top: 10px;
+
+}
+
+
+/* Seções */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #3c6e71;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #3c6e71;
+}
+
+/* Objetivo Perfil */
+.objetivo .perfil p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Experiência e Formação */
+ul {
+    list-style-type: none;
+}
+
+ul ol li {
+    margin-bottom: 20px;
+}
+
+ul ol li h3 {
+    font-size: 1.5rem;
+    color: #284b63;
+}
+
+ul ol li p {
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #284b63;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
